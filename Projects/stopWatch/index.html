@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <!-- tailwind  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-rose-900 h-full">
+    <div
+      class="font-mono mx-auto w-[900px] my-32 text-center text-stone-200/80"
+    >
+      <div class="font-bold text-5xl tracking-wide mb-11">
+        <h1 class="uppercase my-10">Stop Watch</h1>
+        <h1>VANILLA JAVASCRIPT STOP WATCH</h1>
+      </div>
+      <div class="mb-8 text-2xl">
+        <span id="seconds">00</span> : <span id="tens">00</span>
+      </div>
+      <div class="box-border">
+        <button
+          id="btn-start"
+          class="border-2 border-solid border-red-600/75 text-xl hover:bg-red-600/75 hover:border-transparent hover:text-white cursor-pointer transition-all duration-500 py-3 px-9"
+        >
+          Start
+        </button>
+        <button
+          id="btn-stop"
+          class="border-2 border-solid border-red-600/75 text-xl hover:bg-red-600/75 hover:border-transparent hover:text-white cursor-pointer transition-all duration-500 py-3 px-11"
+        >
+          Stop
+        </button>
+        <button
+          id="btn-reset"
+          class="border-2 border-solid border-red-600/75 text-xl hover:bg-red-600/75 hover:border-transparent hover:text-white cursor-pointer transition-all duration-500 py-3 px-9"
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+    <!-- js -->
+    <script src="index.js"></script>
+  </body>
+</html>

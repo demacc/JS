@@ -1,1 +1,1 @@
-# it's simple project idea crd by llp
+# it's simple project.
